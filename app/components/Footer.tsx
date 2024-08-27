@@ -61,7 +61,7 @@ export default function Footer() {
 
         <div className="mt-6 border-t border-gray-700 pt-4 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 PlantEye. All rights reserved.
+            © 2024 PlantEye. All rights reserved by Ryan.
           </p>
         </div>
       </div>
