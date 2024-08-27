@@ -45,8 +45,7 @@ export default function ImageUpload({
 
       const response = await result.response;
       console.log(response);
-      const plantInfo = response
-        .text()
+      const plantInfo = await response.text()
         .replace("## ", "")
         .replace(/\*\*([^*]+)\*\*/g, "$1")
         .replace(/\n/g, "\n");
@@ -54,9 +53,8 @@ export default function ImageUpload({
       setPlantInfo(plantInfo);
     } catch (error) {
       console.error("Error identifying plant:", error);
-      setPlantInfo(
-        `Error identifying plant: ${error.message || "Unknown error"}`
-      );
+      const errorMessage = error instanceof Error ? error.message : "Unknown error";
+      setPlantInfo(`Error identifying plant: ${errorMessage}`);
     }
 
     setLoading(false);
