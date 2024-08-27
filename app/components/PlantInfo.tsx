@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface PlantInfoProps {
   plantInfo: string;
@@ -42,7 +42,7 @@ const PlantInfo = ({ plantInfo }: PlantInfoProps) => {
   });
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 max-w-md w-full">
+    <div className="bg-green-200 rounded-lg shadow-md p-6 max-w-md w-full">
       <h2 className="text-2xl font-semibold mb-4 text-green-700">
         Plant Information
       </h2>
@@ -52,7 +52,9 @@ const PlantInfo = ({ plantInfo }: PlantInfoProps) => {
           {Array.isArray(value) ? (
             <ul className="list-disc pl-5 text-gray-700">
               {value.map((item, index) => (
-                <li key={index} className="ml-2">{item}</li>
+                <li key={index} className="ml-2">
+                  {item}
+                </li>
               ))}
             </ul>
           ) : (

@@ -42,9 +42,9 @@ const PlantInfo = ({ plantInfo }: PlantInfoProps) => {
   });
 
   return (
-    <div className="bg-pink-300 rounded-lg shadow-md p-6 max-w-md w-full">
-      <h2 className="text-2xl font-semibold mb-4 text-pink-600">
-        Pet Information
+    <div className="bg-yellow-300 rounded-lg shadow-md p-6 max-w-md w-full">
+      <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+        Clothe Information
       </h2>
       {Object.entries(plantObject).map(([key, value]) => (
         <div key={key} className="mb-4">

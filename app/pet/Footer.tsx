@@ -8,7 +8,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-green-800 text-white py-6">
+    <footer className="bg-pink-600 text-white py-6">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row justify-between items-center">
           {/* About Section */}
@@ -60,7 +60,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-6 border-t border-gray-700 pt-4 text-center">
-          <p className="text-gray-200 text-sm">
+          <p className="text-gray-300 text-sm">
             © 2024 PlantEye. All rights reserved by Ryan.
           </p>
         </div>

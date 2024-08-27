@@ -14,19 +14,19 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen bg-pink-200 from-green-50 to-emerald-100 flex flex-col items-center justify-start p-8">
-        <h1 className="text-5xl font-bold mb-4 text-pink-600">
-          Pet Identifier
+      <main className="min-h-screen bg-yellow-200 from-green-50 to-emerald-100 flex flex-col items-center justify-start p-8">
+        <h1 className="text-5xl font-bold mb-4 text-gray-700">
+          Clothe Identifier
         </h1>
-        <p className="text-xl text-pink-500 mb-8">
-          Discover and learn about pet with AI-powered identification
+        <p className="text-xl text-gray-600 mb-8">
+          Discover and learn about clothes with AI-powered identification
         </p>
         <ImageUpload setPlantInfo={setPlantInfo} setImageUrl={setImageUrl} />
         {imageUrl && (
           <div className="mt-8 mb-8">
             <img
               src={imageUrl}
-              alt="Uploaded pet"
+              alt="Uploaded plant"
               className="max-w-md rounded-lg shadow-lg"
             />
           </div>

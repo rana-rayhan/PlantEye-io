@@ -79,7 +79,7 @@ export default function ImageUpload({
 
   return (
     <div className="mb-8">
-      <label className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full cursor-pointer transition-colors text-lg">
+      <label className="bg-green-300 hover:bg-green-400 text-green-900 font-bold py-3 px-6 rounded-full cursor-pointer transition-colors text-lg">
         {loading ? "Identifying..." : "📷 Upload Plant Image"}
         <input
           type="file"

@@ -8,14 +8,14 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-green-800 text-white py-6">
+    <footer className="bg-yellow-400 text-black py-6">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row justify-between items-center">
           {/* About Section */}
           <div className="mb-4 lg:mb-0">
             <h3 className="text-xl font-semibold mb-2">About PlantEye</h3>
-            <p className="text-gray-200">
-              PlantEye helps you identify and learn about plants through
+            <p className="text-gray-700">
+              PlantEye helps you identify and learn about clothes through
               AI-powered image analysis.
             </p>
           </div>
@@ -23,8 +23,8 @@ export default function Footer() {
           {/* Contact Section */}
           <div className="mb-4 lg:mb-0">
             <h3 className="text-xl font-semibold mb-2">Contact Us</h3>
-            <p className="text-gray-200">Email: email****@gmail.com</p>
-            <p className="text-gray-200">Phone: +358 00000****</p>
+            <p className="text-gray-700">Email: email****@gmail.com</p>
+            <p className="text-gray-700">Phone: +358 00000****</p>
           </div>
 
           {/* Social Media Links */}
@@ -60,7 +60,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-6 border-t border-gray-700 pt-4 text-center">
-          <p className="text-gray-200 text-sm">
+          <p className="text-gray-700 text-sm">
             © 2024 PlantEye. All rights reserved by Ryan.
           </p>
         </div>
