@@ -13,7 +13,10 @@ const Navbar = () => {
         </div>
         <div className="space-x-4">
           <Link href="/" className="hover:text-green-300">
-            Home
+            Plant
+          </Link>
+          <Link href="/pet" className="hover:text-green-300">
+            Pet
           </Link>
         </div>
       </div>

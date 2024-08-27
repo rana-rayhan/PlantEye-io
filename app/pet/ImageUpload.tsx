@@ -31,7 +31,7 @@ export default function ImageUpload({
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
       const prompt =
-        "Identify this plant and provide the following information in a structured format: common name, scientific name, brief description, origin, sunlight requirements, watering needs, soil type, and any special care instructions.";
+        "Identify this pet and provide the following information in a structured format: Common Name, Scientific/Breed Name, Brief Description, Origin/History, Dietary Needs, Exercise Requirements, Temperament, Lifespan, Grooming Needs, Health Considerations, Special Care Instructions";
 
       const result = await model.generateContent([
         prompt,
@@ -79,8 +79,8 @@ export default function ImageUpload({
 
   return (
     <div className="mb-8">
-      <label className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full cursor-pointer transition-colors text-lg">
-        {loading ? "Identifying..." : "📷 Upload Plant Image"}
+      <label className="bg-slate-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full cursor-pointer transition-colors text-lg">
+        {loading ? "Identifying..." : "📷 Upload Pet Image"}
         <input
           type="file"
           accept="image/*"
