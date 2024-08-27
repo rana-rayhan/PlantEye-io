@@ -12,10 +12,10 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="space-x-4">
-          <Link href="/" className="hover:text-green-300">
+          <Link href="/" className="hover:text-green-300 text-md font-bold">
             Plant
           </Link>
-          <Link href="/pet" className="hover:text-green-300">
+          <Link href="/pet" className="hover:text-green-300 text-md font-bold">
             Pet
           </Link>
         </div>
