@@ -21,7 +21,7 @@ export default function InfoCards() {
               />
             </div>
             <h2 className="text-2xl font-semibold mb-2">Upload Image</h2>
-            <p className="text-gray-200">Easily upload your plant images.</p>
+            <p className="text-gray-200">Easily upload your pet images.</p>
           </div>
 
           {/* Card 2 */}
@@ -34,7 +34,7 @@ export default function InfoCards() {
             </div>
             <h2 className="text-2xl font-semibold mb-2">AI Analysis</h2>
             <p className="text-gray-200">
-              Get instant analysis of your plant image.
+              Get instant analysis of your pet image.
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export default function InfoCards() {
             </div>
             <h2 className="text-2xl font-semibold mb-2">Get Information</h2>
             <p className="text-gray-200">
-              Receive detailed information about your plant.
+              Receive detailed information about your pet.
             </p>
           </div>
         </div>
