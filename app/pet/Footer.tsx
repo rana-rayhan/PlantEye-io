@@ -15,8 +15,8 @@ export default function Footer() {
           <div className="mb-4 lg:mb-0">
             <h3 className="text-xl font-semibold mb-2">About PlantEye</h3>
             <p className="text-gray-200">
-              PlantEye helps you identify and learn about plants through
-              AI-powered image analysis.
+              PlantEye helps you identify and learn about pet through AI-powered
+              image analysis.
             </p>
           </div>
 
